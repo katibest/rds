@@ -1,0 +1,29 @@
+.navbar {
+
+  &-light {
+    background-color: $rds-primary;
+
+    a {
+      color: $white !important;
+      font-weight: 100;
+      font-size: 12px;
+    }
+  }
+
+  .nav-item {
+
+   &.active {
+     border-bottom: 1px solid $white;
+    }
+
+    &:hover {
+      border-bottom: 1px solid $rds-dark-grey;
+    }
+  }
+}
+
+.logo {
+  width: 100px;
+  height:100%;
+
+}
