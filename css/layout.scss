@@ -4,9 +4,25 @@
   &-about {
     margin-top: 200px;
   }
+
+  &-agility {
+    margin-top: 25px;
+  }
 }
 
 
 .splash-container {
   margin-top: 80px;
+}
+
+
+.blue-section {
+  background-color: $rds-primary;
+  padding: 15px;
+
+  p {
+    color: $white;
+    font-weight: 100;
+  }
+
 }
