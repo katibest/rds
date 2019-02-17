@@ -48,6 +48,10 @@ Vertical Timeline - by CodyHouse.co
   background: #d7e4ed;
 }
 
+.cd-timeline-image {
+  width: 100%;
+}
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline {
     margin-top: 3em;
@@ -234,7 +238,6 @@ Vertical Timeline - by CodyHouse.co
 .cd-timeline__date {
   float: left;
   padding: .8em 0;
-  opacity: .7;
 }
 
 @media only screen and (min-width: 768px) {
