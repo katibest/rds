@@ -6331,7 +6331,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-left: 20px; }
 
 .container {
-  margin-top: 75px; }
+  margin-top: 25px; }
   .container-about {
     margin-top: 200px; }
   .container-agility {
@@ -6349,8 +6349,16 @@ a.text-dark:hover, a.text-dark:focus {
 
 h1 {
   font-size: 32px;
-  color: #232323;
+  color: #23aaad;
   font-weight: 100; }
+
+.center {
+  text-align: center; }
+
+h2 {
+  font-size: 26px;
+  color: #232323;
+  font-weight: 200; }
 
 h3 {
   font-size: 12px;
