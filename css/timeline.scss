@@ -271,9 +271,10 @@ Vertical Timeline - by CodyHouse.co
   .cd-timeline__date {
     position: absolute;
     width: 100%;
-    left: 117%;
+    left: 116%;
     top: -10px;
     font-size: 14px;
+    font-weight: bold;
   }
   .cd-timeline__block:nth-child(even) .cd-timeline__content {
     float: right;
@@ -290,7 +291,7 @@ Vertical Timeline - by CodyHouse.co
   }
   .cd-timeline__block:nth-child(even) .cd-timeline__date {
     left: auto;
-    right: 122%;
+    right: 116%;
     text-align: right;
   }
   .cd-timeline__content.cd-timeline__content--bounce-in {
