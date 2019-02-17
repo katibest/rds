@@ -6406,6 +6406,9 @@ Vertical Timeline - by CodyHouse.co
   width: 4px;
   background: #d7e4ed; }
 
+.cd-timeline-image {
+  width: 100%; }
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline {
     margin-top: 3em;
@@ -6557,8 +6560,7 @@ Vertical Timeline - by CodyHouse.co
 
 .cd-timeline__date {
   float: left;
-  padding: .8em 0;
-  opacity: .7; }
+  padding: .8em 0; }
 
 @media only screen and (min-width: 768px) {
   .cd-timeline__content h2 {
@@ -6587,9 +6589,10 @@ Vertical Timeline - by CodyHouse.co
   .cd-timeline__date {
     position: absolute;
     width: 100%;
-    left: 117%;
+    left: 116%;
     top: -10px;
-    font-size: 14px; }
+    font-size: 14px;
+    font-weight: bold; }
   .cd-timeline__block:nth-child(even) .cd-timeline__content {
     float: right; }
   .cd-timeline__block:nth-child(even) .cd-timeline__content::before {
@@ -6602,7 +6605,7 @@ Vertical Timeline - by CodyHouse.co
     float: right; }
   .cd-timeline__block:nth-child(even) .cd-timeline__date {
     left: auto;
-    right: 122%;
+    right: 116%;
     text-align: right; }
   .cd-timeline__content.cd-timeline__content--bounce-in {
     visibility: visible;
