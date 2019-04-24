@@ -6331,7 +6331,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-left: 20px; }
 
 .container {
-  margin-top: 25px; }
+  margin-top: 75px; }
   .container-about {
     margin-top: 200px; }
   .container-agility {
@@ -6352,23 +6352,32 @@ h1 {
   color: #23aaad;
   font-weight: 100; }
 
-.center {
-  text-align: center; }
-
 h2 {
-  font-size: 26px;
+  font-size: 28px;
   color: #232323;
   font-weight: 200; }
+
+.center {
+  text-align: center; }
 
 h3 {
   font-size: 12px;
   color: #fff;
   font-weight: 100; }
 
+h4 {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 300; }
+
 p {
   font-size: 12px;
   color: #232323;
   font-weight: 300; }
+
+a {
+  color: #ebc234;
+  font-weight: 600; }
 
 /* --------------------------------
 
